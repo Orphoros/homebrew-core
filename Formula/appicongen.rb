@@ -10,6 +10,8 @@ class Appicongen < Formula
   elsif Hardware::CPU.intel?
     url "https://github.com/Orphoros/AppIconGen/releases/download/v#{version}/appicongen.x86_64-apple-darwin.tar.gz"
     sha256 "8960239e2d9d78be1b9a6c604891e08791ec45afba21c7384e5823a8716c58cb"
+  else
+    odie "Your architecture is not supported by this formula."
   end
 
   livecheck do
