@@ -1,8 +1,8 @@
 cask "statusify" do
-  version "0.0.12"
+  version "0.0.13"
   arch arm: "aarch64", intel: "x86_64"
-  sha256 arm:   "f27bd844d02f351649ac28918b2bddc6da217050e1e7ed48b0177d24e9a5c620",
-         intel: "ff4666c5625791f72c9cdb2b85c457866c846774b3ddf7329467fc8c2d8468c4"
+  sha256 arm:   "ebf96ec031632960df76d734b6f4b64abfba3b9a5228eecb04878c6215765515",
+         intel: "4ba7c30c945d3e76d04a6783afa9cf97aa31d090703fad55d551ad6997f648c1"
 
   url "https://github.com/Orphoros/Statusify/releases/download/v#{version}/Statusify.darwin-#{arch}.dmg"
   name "statusify"
