@@ -13,6 +13,4 @@ cask "x4tweaker" do
   end
 
   app "X4 Tweaker.app"
-
-  depends_on macos: ">= :el_capitan"
 end

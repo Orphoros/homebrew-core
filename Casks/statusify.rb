@@ -16,8 +16,6 @@ cask "statusify" do
 
   app "Statusify.app"
 
-  depends_on macos: ">= :el_capitan"
-
   zap trash: [
     "~/Library/Application Support/com.orphoros.statusify",
     "~/Library/Caches/Statusify",
